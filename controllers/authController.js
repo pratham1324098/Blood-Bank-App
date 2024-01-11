@@ -25,7 +25,7 @@ const registerController = async (req, res) => {
       user,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       success: false,
       message: "Error In Register API",
@@ -72,7 +72,7 @@ const loginController = async (req, res) => {
       user,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send({
       success: false,
       message: "Error In Login API",
@@ -91,7 +91,7 @@ const currentUserController = async (req, res) => {
       user,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "unable to get current user",

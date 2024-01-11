@@ -25,7 +25,7 @@ const Analytics = () => {
         // console.log(data);
       }
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   };
 
@@ -43,7 +43,7 @@ const Analytics = () => {
         console.log(data);
       }
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   };
 

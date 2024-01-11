@@ -14,7 +14,7 @@ const getDonarsListController = async (req, res) => {
       donarData,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "Error In DOnar List API",
@@ -36,7 +36,7 @@ const getHospitalListController = async (req, res) => {
       hospitalData,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "Error In Hospital List API",
@@ -58,7 +58,7 @@ const getOrgListController = async (req, res) => {
       orgData,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "Error In ORG List API",
@@ -77,7 +77,7 @@ const deleteDonarController = async (req, res) => {
       message: " Record Deleted successfully",
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "Error while deleting ",

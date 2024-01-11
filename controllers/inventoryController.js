@@ -81,7 +81,7 @@ const createInventoryController = async (req, res) => {
       message: "New Blood Reocrd Added",
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "Errro In Create Inventory API",
@@ -106,7 +106,7 @@ const getInventoryController = async (req, res) => {
       inventory,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "Error In Get All Inventory",
@@ -129,7 +129,7 @@ const getInventoryHospitalController = async (req, res) => {
       inventory,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "Error In Get consumer Inventory",
@@ -153,7 +153,7 @@ const getRecentInventoryController = async (req, res) => {
       inventory,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "Error In Recent Inventory API",
@@ -179,7 +179,7 @@ const getDonarsController = async (req, res) => {
       donars,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "Error in Donar records",
@@ -205,7 +205,7 @@ const getHospitalController = async (req, res) => {
       hospitals,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "Error In get Hospital API",
@@ -229,7 +229,7 @@ const getOrgnaisationController = async (req, res) => {
       organisations,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "Error In ORG API",
@@ -252,7 +252,7 @@ const getOrgnaisationForHospitalController = async (req, res) => {
       organisations,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "Error In Hospital ORG API",

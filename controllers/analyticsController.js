@@ -61,7 +61,7 @@ const bloodGroupDetailsContoller = async (req, res) => {
       bloodGroupData,
     });
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return res.status(500).send({
       success: false,
       message: "Error In Bloodgroup Data Analytics API",

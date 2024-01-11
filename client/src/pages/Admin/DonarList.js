@@ -14,7 +14,7 @@ const DonarList = () => {
         setData(data?.donarData);
       }
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   };
 
@@ -34,7 +34,7 @@ const DonarList = () => {
       alert(data?.message);
       window.location.reload();
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   };
 

@@ -34,7 +34,7 @@ const OrgList = () => {
       alert(data?.message);
       window.location.reload();
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   };
 
